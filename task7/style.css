@@ -1,0 +1,23 @@
+.container {
+    width: 500px;
+    border: 2px solid;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.child1,
+.child2,
+.child3,
+.child4,
+.child5,
+.child6 {
+    background-color: lightseagreen;
+    border: 2px solid;
+    width: 100px;
+}
+
+.child1 {
+    width: 200px;
+}

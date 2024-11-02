@@ -1,0 +1,33 @@
+.flex-container {
+    border: 2px solid;
+    width: 500px;
+    /* height: 200px; */
+    display: flex;
+    gap: 10px;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+
+}
+
+.flex-child1,
+.flex-child2,
+.flex-child3 {
+    border: 2px solid;
+    padding: 10px;
+    background-color: crimson;
+
+}
+
+.flex-child1 {
+    flex-basis: 100px;
+}
+
+.flex-child2 {
+    flex-basis: 200px;
+}
+
+.flex-child3 {
+    flex-basis: auto;
+}

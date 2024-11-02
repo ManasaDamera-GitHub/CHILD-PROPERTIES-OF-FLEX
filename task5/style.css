@@ -1,0 +1,19 @@
+.container {
+    width: 100%;
+    border: 2px solid;
+    display: flex;
+    height: 200px;
+    align-items: start;
+}
+
+.child1,
+.child2,
+.child3 {
+    border: 2px solid;
+    width: 100px;
+    background-color: rgb(207, 170, 243);
+}
+
+.child2 {
+    align-self: center;
+}

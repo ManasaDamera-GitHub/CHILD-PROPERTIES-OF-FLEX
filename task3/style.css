@@ -1,0 +1,35 @@
+.container {
+    width: 100%;
+    border: 2px solid;
+    display: flex;
+
+}
+
+.child1,
+.child2,
+.child3,
+.child4 {
+    border: 2px solid;
+    background-color: aqua;
+
+}
+
+.child1 {
+    width: 300px;
+    flex-shrink: 4;
+}
+
+.child2 {
+    width: 200px;
+    flex-shrink: 3;
+}
+
+.child3 {
+    width: 100px;
+    flex-shrink: 1;
+}
+
+.child4 {
+    width: 300px;
+    /* flex-shrink: 2; */
+}

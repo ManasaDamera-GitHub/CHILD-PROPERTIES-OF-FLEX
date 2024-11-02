@@ -1,0 +1,37 @@
+.container {
+    width: 100%;
+    border: 2px solid;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.child1,
+.child2,
+.child3,
+.child4,
+.child5 {
+    border: 2px solid;
+    width: 100px;
+    background-color: blue;
+}
+
+.child1 {
+    order: 1;
+}
+
+.child2 {
+    order: 2;
+}
+
+.child3 {
+    order: -2;
+}
+
+.child4 {
+    order: 5;
+}
+
+.child5 {
+    order: 0;
+}
